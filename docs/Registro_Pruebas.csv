@@ -1,0 +1,16 @@
+ID;Escenario;Resultado esperado;Resultado real;Tiempo respuesta ms;Distancia m;Evidencia;Estado
+P01;Login correcto;Ingresa al rol provisionado;;;;;PENDIENTE
+P02;Cinco contraseñas incorrectas;Bloqueo persistente por 30 segundos;;;;;PENDIENTE
+P03;TLS con huella y token correctos;Actualización cada segundo;;;;;PENDIENTE
+P04;Huella incorrecta;Sin telemetría ni apertura;;;;;PENDIENTE
+P05;Token incorrecto;Acceso denegado;;;;;PENDIENTE
+P06;Bluetooth emparejado permitido;Presencia vigente;;;;;PENDIENTE
+P07;Apertura local en B;Abre tras confirmar y cierra a los 5 s;;;;;PENDIENTE
+P08;Desactivar Bluetooth;Cierra y bloquea tras 5 s sin datos y la siguiente revisión de 500 ms;;;;;PENDIENTE
+P09;Desactivar Wi-Fi;Cierra y bloquea tras 5 s sin datos y la siguiente revisión de 500 ms;;;;;PENDIENTE
+P10;Reactivar conexiones;No abre automáticamente;;;;;PENDIENTE
+P11;Revisar historial;Eventos y lecturas consultables;;;;;PENDIENTE
+P12;Estabilidad 2 minutos a 1 m;Lecturas continuas y registro de fallos;;;1;;PENDIENTE
+P13;Estabilidad 2 minutos a 5 m;Registrar lecturas y fallos reales;;;5;;PENDIENTE
+P14;Estabilidad 2 minutos a 10 m;Registrar alcance real sin asumir éxito;;;10;;PENDIENTE
+P15;Salir de la aplicación;Sesión finalizada y cierre seguro;;;;;PENDIENTE

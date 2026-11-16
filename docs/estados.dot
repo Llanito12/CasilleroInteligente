@@ -1,0 +1,2 @@
+digraph G { graph [rankdir=TB,bgcolor=white]; node [shape=box,style=rounded,fontname="DejaVu Sans",fontsize=12]; edge [fontname="DejaVu Sans",fontsize=10]; start [shape=point]; c [label="Cerrado con vigilancia activa"]; h [label="Cerrado y habilitado"]; a [label="Abierto temporalmente"]; start -> c; c -> h [label="Sesión local y Wi-Fi + Bluetooth < 5 s"]; h -> a [label="Confirmación física en B"]; a -> c [label="5 s, cerrar localmente,
+pérdida de enlace o salir de app"]; h -> c [label="Pérdida de enlace o sesión"]; c -> c [label="Reconexión no abre"]; }

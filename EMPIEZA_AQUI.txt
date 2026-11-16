@@ -1,0 +1,20 @@
+CASILLERO INTELIGENTE — ENTREGA UNIDAD 2
+
+1. Lee README.md (puedes abrirlo con Bloc de notas).
+2. Instala la misma APK en dos teléfonos Android 8 o posterior.
+3. Sigue los pasos de conexión de README.md en orden: misma Wi-Fi,
+   emparejar Bluetooth, crear cuentas, servidor B, monitoreo A, Bluetooth B y A.
+4. La apertura se realiza SOLO EN B, con confirmación local.
+5. Ensaya antes de clase: cambio de distancia, apertura, cierre automático,
+   desconexión y consulta de historial.
+6. Completa nombre y sección en el informe de docs.
+7. Registra resultados reales en docs/Registro_Pruebas.csv.
+8. Sube el proyecto a TU GitHub siguiendo README.md.
+9. Crea un TXT con la URL real del repositorio y entrégalo en el AAI.
+
+La compilación y las 12 pruebas del modelo se ejecutaron. La app todavía
+requiere pruebas en tus teléfonos: no se han inventado resultados físicos.
+El informe incluye un guion para exponer y respuestas a preguntas del profe.
+
+No publiques contraseñas, huellas/token de vinculación ni datos de usuarios.
+La APK es de depuración para laboratorio y simula el hardware de Arduino.

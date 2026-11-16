@@ -1,0 +1,9 @@
+digraph G { graph [rankdir=TB,bgcolor=white]; node [shape=box,fontname="DejaVu Sans",fontsize=12]; edge [fontname="DejaVu Sans",fontsize=11]; a [label="Teléfono A
+Supervisor y emisor de presencia
+Sin control de actuadores"]; b [label="Teléfono B
+Terminal y simulador de casillero
+Operador con sesión local"]; db [label="SQLite local
+Eventos cifrados con AES-GCM"]; key [label="Android Keystore
+Clave AES y clave privada TLS"]; local [label="Botón local en B
+Confirmar apertura durante 5 s"]; a -> b [label="Wi-Fi TLS 1.2 · GET + token",dir=both]; a -> b [label="Bluetooth RFCOMM seguro
+PRESENCE únicamente"]; local -> b [label="Única vía de apertura"]; b -> db; b -> key; }

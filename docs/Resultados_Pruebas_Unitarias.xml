@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cl.inacap.casillero.LockerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-16T00:38:58" hostname="91b9baa4afe6" time="0.026">
+  <properties/>
+  <testcase name="requiresLocalLogin" classname="cl.inacap.casillero.LockerTest" time="0.023"/>
+  <testcase name="thresholdBoundary" classname="cl.inacap.casillero.LockerTest" time="0.0"/>
+  <testcase name="alarmDuringSecureClose" classname="cl.inacap.casillero.LockerTest" time="0.001"/>
+  <testcase name="rejectsThreshold" classname="cl.inacap.casillero.LockerTest" time="0.0"/>
+  <testcase name="freshAt4999ms" classname="cl.inacap.casillero.LockerTest" time="0.0"/>
+  <testcase name="rejectsDistance" classname="cl.inacap.casillero.LockerTest" time="0.0"/>
+  <testcase name="staleCloses" classname="cl.inacap.casillero.LockerTest" time="0.001"/>
+  <testcase name="needsBothLinks" classname="cl.inacap.casillero.LockerTest" time="0.0"/>
+  <testcase name="reconnectDoesNotOpen" classname="cl.inacap.casillero.LockerTest" time="0.0"/>
+  <testcase name="lossCloses" classname="cl.inacap.casillero.LockerTest" time="0.0"/>
+  <testcase name="localOpening" classname="cl.inacap.casillero.LockerTest" time="0.0"/>
+  <testcase name="autoClose" classname="cl.inacap.casillero.LockerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

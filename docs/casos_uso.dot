@@ -1,0 +1,6 @@
+digraph G { graph [rankdir=LR,bgcolor=white]; node [fontname="DejaVu Sans",fontsize=12]; edge [fontname="DejaVu Sans",fontsize=10]; op [shape=box,label="«actor»
+Operador local B"]; su [shape=box,label="«actor»
+Supervisor A"]; subgraph cluster_sys { label="Casillero inteligente"; fontname="DejaVu Sans"; login [shape=ellipse,label="Iniciar sesión"]; abrir [shape=ellipse,label="Confirmar apertura local"]; enlaces [shape=ellipse,label="Validar sesión y
+enlaces recientes"]; sensor [shape=ellipse,label="Simular sensor y
+ajustar umbral"]; consulta [shape=ellipse,label="Consultar telemetría
+por Wi-Fi TLS"]; historial [shape=ellipse,label="Consultar historial local"]; } op -> login [dir=none]; su -> login [dir=none]; op -> abrir [dir=none]; abrir -> enlaces [style=dashed,label="«include»"]; op -> sensor [dir=none]; su -> consulta [dir=none]; op -> historial [dir=none]; su -> historial [dir=none]; }
